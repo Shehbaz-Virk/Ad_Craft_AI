@@ -42,7 +42,8 @@ Follow these steps to set up the application locally:
 3. Use the front-end interface to:
    - Type your desired prompt.
    - Upload a starting image.
-   - Click the generate button to create an ad and caption.
+   - Specify the product category, product name, and topic.
+   - Click the generate button to create an ad and caption optimized for your inputs.
 
 ## Technical Details
 
@@ -53,7 +54,12 @@ Follow these steps to set up the application locally:
 - Implements advanced AI models:
   - **Stable Diffusion** for high-quality image generation.
   - **LLaMA 3.1** for intelligent captioning.
-
+- **Object Detection**: Utilizes Ultralytics’ YOLOv11 segmentation model to classify and detect the focal subject within the uploaded image.
+- **Image Masking**: Generates a Gaussian feathered mask around detected subjects from the YOLOv11 segmentation for precise image processing.
+- **Prompt Expansion**: Leverages FooocusAI’s GPT-2 model for thematic keyword-guided prompt generation, ensuring the ad design aligns with the user’s intent.
+- **Caption Refinement**:
+  - Connects to the Reddit API to extract contextually relevant user insights from recent posts.
+  - Vectorizes data to identify top similar posts using keyword searches and ensures caption contextualization through LLM summarization and BLIP-generated image descriptions.
 ### File Structure:
 - `Fooocus expansion`: Contains required model files, including the `pytorch_model.bin`.
 - Front-end and back-end files are structured for easy navigation and modification.
