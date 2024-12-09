@@ -13,7 +13,7 @@ Welcome to our Ad Generator Application! This tool allows users to create visual
 Follow these steps to set up the application locally:
 
 1. **Download the Project Files**:
-   - Download the zip file containing the project from the repository.
+   - Download the web app zip file containing the project from the repository: web-app-package.zip
    - Extract the contents to a folder on your local machine.
 
 2. **Install Dependencies**:
@@ -24,7 +24,7 @@ Follow these steps to set up the application locally:
      ```
 
 3. **Prepare the Model Files**:
-   - Download the `pytorch_model.bin` file from the public Google Drive link provided here: https://drive.google.com/drive/folders/10xG2960PGL08qpFFjKSbGCusuum60hOX.
+   - Download the `pytorch_model.bin` file from the public Google Drive link provided here: https://drive.google.com/drive/folders/10xG2960PGL08qpFFjKSbGCusuum60hOX
    - Move the downloaded file into the `Fooocus expansion` folder within the project directory.
 
 4. **Run the Application**:
