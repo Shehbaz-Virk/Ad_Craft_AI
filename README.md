@@ -24,7 +24,7 @@ Follow these steps to set up the application locally:
      ```
 
 3. **Prepare the Model Files**:
-   - Download the `pytorch_model.bin` file from the public Google Drive link provided here: https://drive.google.com/drive/folders/10xG2960PGL08qpFFjKSbGCusuum60hOX
+   - Download the `pytorch_model.bin` file from the public Google Drive link provided here: https://drive.google.com/drive/folders/1x0Ruf0ApKy1PytJzDwD66kvjnEYfrAVL
    - Move the downloaded file into the `Fooocus expansion` folder within the project directory.
 
 4. **Run the Application**:
