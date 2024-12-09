@@ -9,6 +9,10 @@ accelerate
 boto3
 awscli
 
+#Flask Packages
+flask
+flask_cors
+
 #PyTorch Packages
 --index-url https://download.pytorch.org/whl/cu121
 torch
