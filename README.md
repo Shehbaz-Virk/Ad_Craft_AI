@@ -51,7 +51,7 @@ The repository contains two main folders:
 
 ## File Structure
 
-### Back-End
+### Back-End Highlights
 - `ldm_patched/`: Required modules for FooocusAI’s GPT-2 prompt expansion.
 - `expansion.py`: Handles prompt expansion with thematic keywords.
 - `image_processing.py`: Generates Gaussian feathered masks and handles optional image resizing.
