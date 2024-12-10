@@ -58,6 +58,7 @@ The repository contains two main folders:
 - `prompt_gen/`: Adds thematic keyword-guided prompt generation.
 - `image_generation/`: Interacts with SageMaker SD-2 Inpaint for image generation.
 - `caption_generation/`: Processes data from Reddit and BLIP models to generate refined captions.
+- pytorch_model.bin file for prompt expansion: https://drive.google.com/drive/folders/1x0Ruf0ApKy1PytJzDwD66kvjnEYfrAVL 
 
 ### Front-End
 - React-based front-end with components for user interaction and integration with the backend.
